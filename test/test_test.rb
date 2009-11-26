@@ -1,5 +1,6 @@
 require 'helper'
-class PPColourTest < Test::Unit::TestCase
+
+class TestPPColour < Test::Unit::TestCase
   def test_list0123_12
     assert_equal("[0, 1, 2, 3]\n", PP.pp([0,1,2,3], '', 12))
   end
@@ -20,52 +21,6 @@ class PPColourTest < Test::Unit::TestCase
     end
     assert_equal(%(""\n), PP.pp(o, ""))
   end
-end
- 
-class HasInspect
-  def initialize(a)
-    @a = a
-  end
- 
-  def inspect
-    return "<inspect:#{@a.inspect}>"
-  end
-end
- 
-class HasPrettyPrint
-  def initialize(a)
-    @a = a
-  end
- 
-  def pretty_print(q)
-    q.text "<pretty_print:"
-    q.pp @a
-    q.text ">"
-  end
-end
- 
-class HasBoth
-  def initialize(a)
-    @a = a
-  end
- 
-  def inspect
-    return "<inspect:#{@a.inspect}>"
-  end
- 
-  def pretty_print(q)
-    q.text "<pretty_print:"
-    q.pp @a
-    q.text ">"
-  end
-end
- 
-class PrettyPrintInspect < HasPrettyPrint
-  alias inspect pretty_print_inspect
-end
- 
-class PrettyPrintInspectWithoutPrettyPrint
-  alias inspect pretty_print_inspect
 end
  
 class PPInspectTest < Test::Unit::TestCase

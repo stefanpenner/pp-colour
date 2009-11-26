@@ -1,6 +1,6 @@
 = pp-colour
 
-A colourized version of ruby's builtin pp.
+A colourized version of ruby's builtin pp. Not fully complete, but it coveres the common cases.
 
 = install
   sudo gem install pp-colour 
