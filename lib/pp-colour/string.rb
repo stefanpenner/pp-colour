@@ -1,3 +1,4 @@
+# credit goes to burke@burkelibbey.org
 class String
   COLORS = {
     :black     => '0',
@@ -50,12 +51,5 @@ class String
       end
     EOS
   end
- 
-end
-if __FILE__ == $0
-puts ["this is a string".blue.italic,
-"this is a string".blue.underline,
-"this is a string".bold.underline.green.blink,
-"this is a string".magenta].join(" : ")
 end
 

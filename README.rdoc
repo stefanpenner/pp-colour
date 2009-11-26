@@ -1,6 +1,13 @@
 = pp-colour
 
-Description goes here.
+A colourized version of ruby's builtin pp.
+
+= install
+  sudo gem install pp-colour 
+
+= usage
+  require 'pp-colour'
+  pp some_awesomely_huge_datastructure
 
 == Note on Patches/Pull Requests
  
