@@ -1,12 +1,11 @@
 require 'prettyprint'
-path = File.dirname(__FILE__)
-%W{string
-   kernel
-   temp
-   array
-   hash
-   struct
-   file
-   range
-   matchdata
-   other}.each { |file| require File.join(path,'pp-colour',file)}
+require 'pp-colour/string'
+require 'pp-colour/kernel'
+require 'pp-colour/temp'
+require 'pp-colour/array'
+require 'pp-colour/hash'
+require 'pp-colour/struct'
+require 'pp-colour/file'
+require 'pp-colour/range'
+require 'pp-colour/matchdata'
+require 'pp-colour/other'

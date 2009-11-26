@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "pp-colour"
-    gem.summary = %Q{T one-line summary of your gem}
-    gem.description = %Q{Tlonger description of your gem}
+    gem.summary = %Q{colourized pp}
+    gem.description = %Q{colourized version of the builtin pp}
     gem.email = "stefan.penner@gmail.com"
     gem.homepage = "http://github.com/stefanpenner/pp-colour"
     gem.authors = ["Stefan Penner"]
