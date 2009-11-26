@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "pp-colour"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{T one-line summary of your gem}
+    gem.description = %Q{Tlonger description of your gem}
     gem.email = "stefan.penner@gmail.com"
     gem.homepage = "http://github.com/stefanpenner/pp-colour"
     gem.authors = ["Stefan Penner"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.files.include('lib/pp-colour/**.rb')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
