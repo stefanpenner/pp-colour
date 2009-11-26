@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stefan Penner"]
-  s.date = %q{2009-11-25}
+  s.date = %q{2009-11-26}
   s.description = %q{colourized version of the builtin pp}
   s.email = %q{stefan.penner@gmail.com}
   s.extra_rdoc_files = [
@@ -37,7 +37,8 @@ Gem::Specification.new do |s|
      "lib/pp-colour/temp.rb",
      "pp-colour.gemspec",
      "test/helper.rb",
-     "test/test_pp-colour.rb"
+     "test/setup.rb",
+     "test/test_test.rb"
   ]
   s.homepage = %q{http://github.com/stefanpenner/pp-colour}
   s.rdoc_options = ["--charset=UTF-8"]
@@ -46,7 +47,8 @@ Gem::Specification.new do |s|
   s.summary = %q{colourized pp}
   s.test_files = [
     "test/helper.rb",
-     "test/test_pp-colour.rb"
+     "test/setup.rb",
+     "test/test_test.rb"
   ]
 
   if s.respond_to? :specification_version then
