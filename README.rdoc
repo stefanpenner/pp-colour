@@ -8,6 +8,7 @@ A colourized version of ruby's builtin pp.
 = usage
   require 'pp-colour'
   pp some_awesomely_huge_datastructure
+  > syntax highlighted goodness
 
 == Note on Patches/Pull Requests
  
