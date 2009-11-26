@@ -11,7 +11,6 @@ begin
     gem.homepage = "http://github.com/stefanpenner/pp-colour"
     gem.authors = ["Stefan Penner"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
-    gem.files.include('lib/pp-colour/**.rb')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
