@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Stefan Penner"]
   s.date = %q{2009-11-25}
-  s.description = %q{Colourized pretty print (pp)}
+  s.description = %q{Tlonger description of your gem}
   s.email = %q{stefan.penner@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
      "lib/pp-colour/string.rb",
      "lib/pp-colour/struct.rb",
      "lib/pp-colour/temp.rb",
+     "pp-colour.gemspec",
      "test/helper.rb",
      "test/test_pp-colour.rb"
   ]
